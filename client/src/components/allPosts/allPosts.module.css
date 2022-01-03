@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.postCard {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px 20px;
+  margin: 40px 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.header i{
+  background-color: white;
+}
+
+.leftHeader{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.header i{
+  background-color: white;
+  display: flex;
+  justify-content: end;
+}
+
+.otherOptions{
+  background-color: white;
+}
+
+.otherOptions button{
+  margin:0px 10px;
+  padding: 2px 3px;
+  background-color: white;
+}
+
+.otherOptions li{
+  background-color: white;
+}
+
+.otherOptions ul{
+  list-style: none;
+}
+
+
+.headerUsername {
+  font-weight: bolder;
+  font-size: medium ;
+  padding: 0px 10px;
+  background-color: white;
+}
+
+.content {
+  /* padding: 0px 20px; */
+  background-color: white;
+}
+
+.content div {
+  padding: 0px 10px;
+  background-color: white;
+  margin: 10px;
+  font-size:large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight:normal;
+}
+
+.content img {
+  padding-left: 5px;
+  width: 550px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: white;
+}
+
+.footer button {
+  padding: 8px 60px;
+  border-left: none;
+  border-right: none;
+}
+
+.addComment {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 20px 0px;
+  background-color: white;
+}
+
+.addComment input {
+  padding: 8px;
+  width: 450px;
+  border: none;
+  margin-right: 5px;
+}
+
+.addComment button {
+  padding: 8px 25px;
+  font-weight: bolder;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  background-color: blue;
+}
+
+.commentView {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.commentView img {
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+#commentUsername {
+  padding: 3px 0px;
+  font-weight: 900;
+}
+
+#userComment {
+  padding-left: 10px;
+  font-size: medium ;
+}
+
+.commentDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.date{
+  background-color: white;
+  border: none;
+  margin-left: 7px;
+}
+
+.date span{
+  background-color: white;
+}
+
+#icons{
+  color: darkred;
+  margin-right: 20px;
+  /* margin-top: 5px; */
+  background-color: white;
+}
